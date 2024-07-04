@@ -1,4 +1,4 @@
-/* import { render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import SingleBook from "../components/SingleBook";
 
 describe("render as many bootstrap cards as books in json", () => {
@@ -7,4 +7,4 @@ describe("render as many bootstrap cards as books in json", () => {
     const img = screen.getAllByRole("img");
     expect(img).toBeInTheDocument();
   });
-}); */
+});

@@ -5,5 +5,5 @@ describe("when the page start and there's no click in any card the singlecomment
 it("not render comment if there's no click at the start", () => {
   render(<SingleComment />);
   const listItems = screen.queryAllByRole("listitem");
-  expect(listItems).toHaveLenght(0);
+  expect(listItems).toHaveLength(0);
 });
