@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-import { describe, expect } from "vitest";
 import Welcome from "../components/Welcome";
 
 describe("mounts of Welcome component", () => {
